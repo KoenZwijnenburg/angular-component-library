@@ -10,6 +10,10 @@
     "e2e": "ng e2e"
   },
   "private": true,
+  "main": "dist/ui-components/bundles/ui-components.umd.js",
+  "module": "dist/ui-components/fesm5/ui-components.js",
+  "fesm2015": "dist/ui-components/fesm2015/ui-components.js",
+  "typings": "dist/ui-components/ui-components.d.ts",
   "dependencies": {
     "@angular/animations": "~8.0.1",
     "@angular/common": "~8.0.1",
